@@ -35,39 +35,10 @@
 
     <!-- 下面配置一些第三方包的日志过滤级别，用于避免刷屏 -->
     <logger name="org.springframework" level="INFO" />
-    <logger name="org.springframework.transaction.interceptor"
-            level="ERROR" />
-    <logger name="org.springframework.beans.factory.support" level="WARN" />
-    <logger name="org.springframework.web.servlet.view" level="WARN" />
-    <logger name="org.springframework.transaction" level="WARN" />
-    <logger
-            name="org.springframework.jdbc.datasource.DataSourceTransactionManager"
-            level="ERROR" />
-    <logger
-            name="org.springframework.transaction.support.AbstractPlatformTransactionManager"
-            level="ERROR" />
-    <logger name="org.apache.commons" level="WARN" />
-    <logger name="org.apache.http" level="ERROR" />
-    <logger name="org.apache.zookeeper" level="WARN" />
-    <logger name="org.I0Itec" level="WARN" />
-    <logger name="org.quartz.core" level="INFO" />
-    <logger name="io.netty" level="INFO" />
-    <logger name="com.dangdang.ddframe.job" level="INFO" />
-    <logger name="org.apache.kafka" level="INFO"/>
-    <logger name="org.elasticsearch.client.RestClient" level="INFO"/>
-    <logger name="com.gnss.common.config.mqtt.MQTTService" level="WARN"/>
-    <logger name="i.l.core.protocol" level="WARN"/>
-    <logger name="io.lettuce.core" level="WARN"/>
-    <logger name="i.l.c.c" level="WARN"/>
-    <logger name="org.springframework.kafka" level="WARN"/>
-    <logger name="o.a.kafka.clients.consumer.internals" level="WARN"/>
-    <logger name="o.a.k" level="WARN"/>
-    <logger name="o.a.s" level="WARN"/>
 
-    <!--  sql打印  -->
-    <!-- <logger name="com.gnss.module.statistics.mapper" level="DEBUG"/>-->
 
-    <root level="INFO">
+
+    <root level="DEBUG">
         <appender-ref ref="CONSOLE"/>
         <appender-ref ref="FILE"/>
     </root>

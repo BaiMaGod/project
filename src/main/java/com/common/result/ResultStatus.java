@@ -1,4 +1,4 @@
-package com.result;
+package com.common.result;
 
 /**
  * 返回状态码枚举类

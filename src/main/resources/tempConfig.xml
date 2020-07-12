@@ -19,12 +19,12 @@
 
 
         <!--生成 Result 类存放位置-->
-        <javaResultGenerator targetPackage="com.result" targetProject="src/main/java">
+        <javaResultGenerator targetPackage="com.common.result" targetProject="src/main/java">
 
         </javaResultGenerator>
 \
         <!--生成 Form 类存放位置-->
-        <javaFormGenerator targetPackage="com.form.common" targetProject="src/main/java">
+        <javaFormGenerator targetPackage="com.common.form.common" targetProject="src/main/java">
 
         </javaFormGenerator>
 

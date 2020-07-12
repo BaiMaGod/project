@@ -1,4 +1,4 @@
-package com.config.validator.group;
+package com.common.config.validator.group;
 
 import javax.validation.GroupSequence;
 

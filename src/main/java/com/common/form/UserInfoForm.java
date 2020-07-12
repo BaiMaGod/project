@@ -1,4 +1,4 @@
-package com.form;
+package com.common.form;
 
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;

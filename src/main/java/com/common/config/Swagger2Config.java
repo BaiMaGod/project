@@ -1,6 +1,6 @@
-package com.config;
+package com.common.config;
 
-import com.result.ResultStatus;
+import com.common.result.ResultStatus;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.bind.annotation.RequestMethod;

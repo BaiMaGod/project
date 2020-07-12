@@ -2,7 +2,7 @@ package com.utils;
 
 
 import com.alibaba.fastjson.JSONObject;
-import com.result.Result;
+import com.common.result.Result;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 

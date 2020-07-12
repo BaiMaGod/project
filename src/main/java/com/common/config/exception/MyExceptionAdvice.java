@@ -1,7 +1,7 @@
-package com.config.exception;
+package com.common.config.exception;
 
-import com.result.Result;
-import com.result.ResultStatus;
+import com.common.result.Result;
+import com.common.result.ResultStatus;
 import org.springframework.validation.BindException;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;

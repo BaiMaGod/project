@@ -1,6 +1,6 @@
-package com.config.exception;
+package com.common.config.exception;
 
-import com.result.ResultStatus;
+import com.common.result.ResultStatus;
 
 /**
  * 自定义应用程序异常

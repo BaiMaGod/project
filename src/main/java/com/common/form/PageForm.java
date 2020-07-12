@@ -1,12 +1,12 @@
-package com.form;
+package com.common.form;
 
 import com.github.pagehelper.PageInfo;
-import com.result.Page;
+import com.common.result.Page;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
 @Data
-public class PageForm {
+public class PageForm implements BeforeForm{
     @ApiModelProperty(value = "第几页,默认第一页")
     protected int page = 1;
     @ApiModelProperty(value = "每页条数,默认每页10条")
@@ -24,5 +24,20 @@ public class PageForm {
         page.setTotalPages(pageInfo.getNavigateLastPage());
 
         return page;
+    }
+
+
+
+
+
+    @Override
+    public void filter() {
+        System.out.println("filter");
+    }
+
+
+    @Override
+    public void check() {
+        System.out.println("check");
     }
 }

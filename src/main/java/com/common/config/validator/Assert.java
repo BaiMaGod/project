@@ -1,7 +1,7 @@
-package com.config.validator;
+package com.common.config.validator;
 
-import com.config.exception.AppException;
-import com.result.ResultStatus;
+import com.common.config.exception.AppException;
+import com.common.result.ResultStatus;
 import org.apache.commons.lang3.StringUtils;
 
 /**
